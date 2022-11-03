@@ -824,10 +824,6 @@ address {
   outline: 1px solid var(--accent-color);
 }
 
-.modal-comment:focus {
-  outline: 1px solid var(--accent-color);
-}
-
 .form-wrap {
   position: relative;
 }
@@ -862,6 +858,10 @@ address {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-comment:focus {
+  outline: 1px solid var(--accent-color);
 }
 
 .checkbox-text {
