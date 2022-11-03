@@ -810,6 +810,18 @@ address {
   border-radius: 4px;
 }
 
+.form-input:focus + .icon-form {
+  color: var(--accent-color);
+}
+
+.form-input:focus {
+  outline: 1px solid var(--accent-color);
+}
+
+.modal-comment:focus {
+  outline: 1px solid var(--accent-color);
+}
+
 .form-wrap {
   position: relative;
 }
@@ -820,6 +832,8 @@ address {
   left: 15px;
   width: 18px;
   height: 18px;
+
+  fill: currentColor;
   background-color: var(--main-color);
 }
 
