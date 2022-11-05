@@ -551,7 +551,7 @@
             <span class="label-wrap">Ім'я</span>
             <span class="input-wrap">
               <input class="form-input" type="text" name="name" /><svg class="icon-form">
-                <use class="icon-person" href="./images/icons.svg#icon-person"></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
           </label>
@@ -559,7 +559,7 @@
             <span class="label-wrap">Телефон</span>
             <span class="input-wrap">
               <input class="form-input" type="tel" name="tel" /><svg class="icon-form">
-                <use class="icon-phone" href="./images/icons.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </span>
           </label>
@@ -567,7 +567,7 @@
             <span class="label-wrap">Пошта</span>
             <span class="input-wrap">
               <input class="form-input" type="email" name="email" /><svg class="icon-form">
-                <use class="icon-email" href="./images/icons.svg#icon-email"></use>
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </span>
           </label>
@@ -575,16 +575,18 @@
             <span class="label-wrap">Коментар</span>
             <textarea class="form-textarea" name="comment" placeholder="Введіть текст"></textarea>
           </label>
-          <input class="visually-hidden" type="checkbox" />
-          <div class="check-wrap">
-            <div class="form-check"></div>
-            <label class="form-license"
-              >Погоджуюся з розсилкою та приймаю
+
+          <div class="form-wrap">
+            <label class="form-license">
+              <input class="visually-hidden checkbox" type="checkbox" />
+              <span class="form-check"></span>
+              Погоджуюся з розсилкою та приймаю
               <a class="license-link" href="" target="_blank" rel="noopener noreferrer nofollow"
                 >Умови договору</a
-              ></label
-            >
+              >
+            </label>
           </div>
+
           <button class="form-btn" type="submit">Відправити</button>
         </form>
       </div>

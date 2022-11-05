@@ -863,21 +863,6 @@ address {
   color: var(--title-color);
 }
 
-.icon-person {
-  width: 12px;
-  height: 12px;
-}
-
-.icon-phone {
-  width: 13px;
-  height: 13px;
-}
-
-.icon-email {
-  width: 15px;
-  height: 12px;
-}
-
 /* Форма */
 
 .form-label {
@@ -964,14 +949,17 @@ address {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.check-wrap {
+.form-wrap {
   display: flex;
-  gap: 8px;
-  align-items: baseline;
   justify-content: center;
 }
 
 .form-check {
+  position: relative;
+  top: 2px;
+
+  display: inline-block;
+  margin-right: 7px;
   width: 16px;
   height: 15px;
 
@@ -979,13 +967,20 @@ address {
   border-radius: 2px;
 }
 
+.checkbox:checked + .form-check {
+  border: 2px solid var(--accent-color);
+  background-color: var(--accent-color);
+}
+
 .form-license {
-  display: block;
+  display: inline-block;
   margin-bottom: 30px;
+
   letter-spacing: 0.03em;
   line-height: 1.71;
 
   color: var(--text-color);
+  cursor: pointer;
 }
 
 .license-link {
