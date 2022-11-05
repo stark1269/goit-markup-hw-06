@@ -970,6 +970,8 @@ address {
 .checkbox:checked + .form-check {
   border: 2px solid var(--accent-color);
   background-color: var(--accent-color);
+  background-image: url(../images/check.svg);
+  background-position: center;
 }
 
 .form-license {
