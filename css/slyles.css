@@ -887,7 +887,7 @@ address {
 }
 
 .form-input:focus + .icon-form {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .icon-form {
@@ -898,7 +898,7 @@ address {
 
   width: 18px;
   height: 18px;
-  fill: currentColor;
+  fill: var(--title-color);
   transition: color 250ms var(--transition);
 }
 
